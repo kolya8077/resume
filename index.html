@@ -5,22 +5,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="css/styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="Resume" content="Resume Goniuk Mykola">
     <title>Resume</title>
 </head>
 
 <body>
     <!-- main -->
-    <div>
+    <div class="main">
         <!--Main content -->
-        <div>
+        <div class="main-content">
             <!-- abaut user -->
-            <h2>Front-End Developer</h2>
-            <h1>Mykola Goniuk</h1>
-            <p>I'm Mykola. I'm 25. I take courses in Go IT. Over time, I will supplement the information in this resume.
-            </p>
+            <div class="about-user">
+                <h2>Front-End Developer</h2>
+                <h1>Mykola Goniuk</h1>
+                <p>I'm Mykola. I'm 25. I take courses in Go IT. Over time, I will supplement the information in this
+                    resume.
+                </p>
+            </div>
+
             <!-- Projects -->
-            <div>
+            <div class="projects">
                 <H3>Projects</H3>
                 <ol>
                     <li>
@@ -30,40 +37,46 @@
                         HTML5,CSS3,GIT
                     </li>
                 </ol>
-
-                <!-- Work -->
-                <div>
-                    <h1>Work Experience</h1>
-                    <!-- Company 1 -->
-                    <div>
-                        <h4>Engineer of JSC "Ukrtransnafta"</h4>
-                        <p>August 2019 - up to now | Ukraine</p>
-                        <ul>
-                            <li>High-voltage checks are equipped</li>
-                            <li>Audit of high-voltage equipment at 110 kV substations</li>
-                            <li>Ground resistance</li>
-                        </ul>
-                    </div>
-                    <!-- Education -->
-                    <Div>
-                        <h1>Education</h1>
-                        <h4>National University of Water Management and Nature Management</h4>
-                        <h5>Electrical engineer</h5>
-                        <p>September 2018 - January 2021 | Ukraine</p>
-                    </Div>
+            </div>
+            <!-- Work -->
+            <div>
+                <!-- Company 1 -->
+                <div class="company-1">
+                    <h1 class="work-experience">Work Experience</h1>
+                    <h4>Engineer of JSC "Ukrtransnafta"</h4>
+                    <p>August 2019 - up to now | Ukraine</p>
+                    <ul class="ul-1">
+                        <li>High-voltage checks are equipped</li>
+                        <li>Audit of high-voltage equipment at 110 kV substations</li>
+                        <li>Ground resistance</li>
+                    </ul>
                 </div>
             </div>
+            <!-- Education -->
+            <div>
+                <h1>Education</h1>
+                <h4>National University of Water Management and Nature Management</h4>
+                <h5>Electrical engineer</h5>
+                <p>September 2016 - January 2021 | Ukraine</p>
+            </div>
+
+
         </div>
 
         <!-- Sidebar -->
-        <aside>
-            <img src="img/2021-07-25 14_56_11.272+0300.jpg" alt="User Photo">
+        <aside class="sidebar">
+            <img class="photo" src="img/2021-07-25 14_56_11.272+0300.jpg" alt="User Photo" width="300">
+
             <!-- Contacts -->
             <div>
                 <h3>Contacts</h3>
                 <div>
-                    <p>c: <a href="tel:+380964179703">+38 096 417 97 03</a></p>
-                    <p>e: <a href="mailto:kolya8077@gmail.com">kolya8077@gmail.com</a></p>
+                    <p>
+                        c: <a href="tel:+380964179703">+38 096 417 97 03</a>
+                    </p>
+                    <p>
+                        e: <a href="mailto:kolya8077@gmail.com">kolya8077@gmail.com </a>
+                    </p>
                 </div>
             </div>
             <!-- Tech Skills -->
