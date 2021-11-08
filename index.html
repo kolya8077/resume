@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
     <meta name="Resume" content="Resume Goniuk Mykola">
     <title>Resume</title>
 </head>
@@ -18,33 +18,39 @@
         <!--Main content -->
         <div class="main-content">
             <!-- abaut user -->
-            <div class="about-user">
-                <h2>Front-End Developer</h2>
-                <h1>Mykola Goniuk</h1>
-                <p>I'm Mykola. I'm 25. I take courses in Go IT. Over time, I will supplement the information in this
+            <div class="about">
+                <h2 class="about-position">Front-End Developer</h2>
+                <h1 class="about-name">Mykola Goniuk</h1>
+                <p class="about-user">
+                    I'm Mykola. I'm 25. I take courses in Go IT. Over time, I will supplement the information in this
                     resume.
                 </p>
             </div>
-
             <!-- Projects -->
             <div class="projects">
-                <H3>Projects</H3>
-                <ol>
-                    <li>
-                        <a
-                            href="https://kolya8077.github.io/goit-markup-hw-01/">https://kolya8077.github.io/goit-markup-hw-01/</a>
-                        .............
-                        HTML5,CSS3,GIT
+                <h3 class="title">Projects</h3>
+                <ol class="ul-1">
+                    <li class="project-item">
+                        <span class="project">
+                            <a href="https://kolya8077.github.io/goit-markup-hw-01/"
+                                class="project-link">goit-markup-hw-01
+                            </a>
+                            .............
+                            <span class="project-baracket">[</span> HTML5,CSS3,GIT <span
+                                class="project-baracket">]</span>
+                        </span>
+
+
                     </li>
                 </ol>
             </div>
             <!-- Work -->
-            <div>
+            <div class="work">
+                <h3 class="work-experience">Work Experience</h3>
                 <!-- Company 1 -->
                 <div class="company-1">
-                    <h1 class="work-experience">Work Experience</h1>
-                    <h4>Engineer of JSC "Ukrtransnafta"</h4>
-                    <p>August 2019 - up to now | Ukraine</p>
+                    <h4> Engineer <span class="orange">JSC "Ukrtransnafta"</span> </h4>
+                    <p class="number">August 2019 - up to now | Ukraine</p>
                     <ul class="ul-1">
                         <li>High-voltage checks are equipped</li>
                         <li>Audit of high-voltage equipment at 110 kV substations</li>
@@ -53,51 +59,56 @@
                 </div>
             </div>
             <!-- Education -->
-            <div>
-                <h1>Education</h1>
-                <h4>National University of Water Management and Nature Management</h4>
+            <div class="education">
+                <h1 class="">Education</h1>
+                <h4 class="orange">National University of Water Management and Nature Management</h4>
                 <h5>Electrical engineer</h5>
-                <p>September 2016 - January 2021 | Ukraine</p>
+                <p class="number">September 2016 - January 2021 | Ukraine</p>
             </div>
-
-
         </div>
 
         <!-- Sidebar -->
         <aside class="sidebar">
-            <img class="photo" src="img/2021-07-25 14_56_11.272+0300.jpg" alt="User Photo" width="300">
-
+            <img class="photo" src="img/2021-07-25 14_56_11.272+0300.jpg" alt="User Photo">
             <!-- Contacts -->
-            <div>
-                <h3>Contacts</h3>
+            <div class="contacts">
+                <h3 class="sidebar-title">Contacts</h3>
                 <div>
                     <p>
-                        c: <a href="tel:+380964179703">+38 096 417 97 03</a>
+                        <span class="contact-type">C:</span>
+                        <a href="tel:+380964179703" class="contacts-link">+38 096 417 97 03</a>
                     </p>
                     <p>
-                        e: <a href="mailto:kolya8077@gmail.com">kolya8077@gmail.com </a>
+                        <span class="contact-type">E:</span>
+                        <a href="mailto:kolya8077@gmail.com" class="contacts-link">kolya8077@gmail.com </a>
                     </p>
                 </div>
             </div>
             <!-- Tech Skills -->
-            <h3>Tech Skills</h3>
-            <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>GIT</li>
-                <li>WebPack</li>
-                <li>JavaScript</li>
-                <li>React.js</li>
-                <li>Node.js</li>
-            </ul>
+            <div class="tech-skills">
+                <h3 class="sidebar-title">Tech Skills</h3>
+                <ul class="teck-skills-list">
+                    <li class="tech-skills-item"> <span class="tech-skills-text">HTML5</span> </li>
+                    <li class="tech-skills-item"> <span class="tech-skills-text">CSS3</span> </li>
+                    <li class="tech-skills-item"> <span class="tech-skills-text">GIT</span> </li>
+                    <li class="tech-skills-item"> <span class="tech-skills-text">WebPack</span> </li>
+                    <li class="tech-skills-item"> <span class="tech-skills-text">JavaScript</span> </li>
+                    <li class="tech-skills-item"> <span class="tech-skills-text">React.js</span> </li>
+                    <li class="tech-skills-item"> <span class="tech-skills-text">Node.js</span> </li>
+                </ul>
+            </div>
+
             <!-- Soft Skills -->
-            <h3>Soft Skills</h3>
-            <ul>
-                <li>Scrum</li>
-                <li>Agile</li>
-                <li>GTD</li>
-                <li>Teamwork</li>
-            </ul>
+            <div class="soft-skills">
+                <h3 class="sidebar-title">Soft Skills</h3>
+                <ul class="teck-skills-list">
+                    <li class="tech-skills-item"> <span class="tech-skills-text">Scrum</span> </li>
+                    <li class="tech-skills-item"> <span class="tech-skills-text">Agile</span> </li>
+                    <li class="tech-skills-item"> <span class="tech-skills-text">GTD</span></li>
+                    <li class="tech-skills-item"> <span class="tech-skills-text">Teamwork</span> </li>
+                </ul>
+            </div>
+
         </aside>
     </div>
 </body>
