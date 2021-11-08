@@ -21,6 +21,7 @@ body {
   margin-left: 90px;
   margin-right: 385px;
   margin-bottom: 40px;
+  width: 400px;
 }
 
 .about-position {
@@ -130,6 +131,7 @@ body {
 
 .education {
   margin: 45px 460px 160px 90px;
+  width: 350px;
 }
 
 .sidebar {
